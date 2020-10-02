@@ -8,6 +8,7 @@
     <title>@yield('title')</title>
 
     <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('style/css/styles.css') }}">
 
     @yield('style')
 </head>
