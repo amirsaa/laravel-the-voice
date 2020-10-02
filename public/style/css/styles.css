@@ -48,8 +48,23 @@
   src: local("Kanit Black"), local("Kanit-Black"), url("../../../fonts/Kanit/kanit-v7-latin-900.eot?#iefix") format("embedded-opentype"), url("../../../fonts/Kanit/kanit-v7-latin-900.woff2") format("woff2"), url("../../../fonts/Kanit/kanit-v7-latin-900.woff") format("woff"), url("../../../fonts/Kanit/kanit-v7-latin-900.ttf") format("truetype"), url("../../../fonts/Kanit/kanit-v7-latin-900.svg#Kanit") format("svg");
   /* Legacy iOS */
 }
+.card {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
 body {
   font-family: Kanit !important;
+  background: #eee;
+}
+
+.text-primary {
+  color: #00a896 !important;
+}
+
+.text-secondary {
+  color: #02c39a !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

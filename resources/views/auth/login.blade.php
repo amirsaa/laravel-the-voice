@@ -1,12 +1,12 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-8 mt-5">
+            <h1 class="font-weight-bolder text-primary mb-0">The Voice</h1>
+            <h3 class="mt-0 font-weight-bold text-secondary">{{ __('Login') }}</h3>
             <div class="card">
-                <div class="card-header">{{ __('Login') }}</div>
-
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
