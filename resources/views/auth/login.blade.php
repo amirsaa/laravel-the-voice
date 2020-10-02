@@ -4,10 +4,24 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8 mt-5">
-            <h1 class="font-weight-bolder text-primary mb-0">The Voice</h1>
-            <h3 class="mt-0 font-weight-bold text-secondary">{{ __('Login') }}</h3>
+
             <div class="card">
                 <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h1 class="font-weight-bolder text-primary mb-0">The Voice</h1>
+                            <h4 class="mt-0 font-weight-bold text-secondary">{{ __('Login') }}</h4>
+                        </div>
+
+                        <div class="col-sm-8 text-right">
+                            <img src="{{ asset('img/login-pic.png') }}" class="mb-5" alt="">
+                        </div>
+                    </div>
+
+{{--                    <div class="text-center mt-3 mb-5">--}}
+{{--                        --}}
+{{--                    </div>--}}
+
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
