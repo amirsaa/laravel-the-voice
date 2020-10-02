@@ -10,3 +10,8 @@ body {
 .text-secondary {
     color: $secondary !important;
 }
+
+.btn-primary {
+    background-color: $primary;
+    border-color: $primary;
+}

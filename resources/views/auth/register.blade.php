@@ -1,13 +1,22 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-8 mt-5">
             <div class="card">
-                <div class="card-header">{{ __('Register') }}</div>
-
                 <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h1 class="font-weight-bolder text-primary mb-0">The Voice</h1>
+                            <h4 class="mt-0 font-weight-bold text-secondary">{{ __('Register') }}</h4>
+                        </div>
+
+                        <div class="col-sm-8 text-right">
+                            <img src="{{ asset('img/register-pic.png') }}" class="img-fluid mb-5" alt="">
+                        </div>
+                    </div>
+
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 

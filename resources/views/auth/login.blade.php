@@ -14,7 +14,7 @@
                         </div>
 
                         <div class="col-sm-8 text-right">
-                            <img src="{{ asset('img/login-pic.png') }}" class="mb-5" alt="">
+                            <img src="{{ asset('img/login-pic.png') }}" class="img-fluid mb-5" alt="">
                         </div>
                     </div>
 

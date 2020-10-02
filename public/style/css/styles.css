@@ -60,11 +60,16 @@ body {
 }
 
 .text-primary {
-  color: #00a896 !important;
+  color: #4d2cb1 !important;
 }
 
 .text-secondary {
-  color: #02c39a !important;
+  color: #8dbe34 !important;
+}
+
+.btn-primary {
+  background-color: #4d2cb1;
+  border-color: #4d2cb1;
 }
 
 /*# sourceMappingURL=styles.css.map */
